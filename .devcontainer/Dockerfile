@@ -18,6 +18,7 @@ RUN sudo apt-get install --no-install-recommends -y \
   curl \
   git-core \
   wget \
+  vim \
   nano \
   ssh \
   tree \
@@ -30,6 +31,15 @@ RUN sudo apt-get install --no-install-recommends -y \
   make \
   binutils-riscv64-linux-gnu \
   qemu-system-riscv32 \
+  gcc-arm-linux-gnueabihf \
+  libc6-dev-armhf-cross \ 
+  qemu-user-static \
+  libc6-dev-arm64-cross \
+  gcc-aarch64-linux-gnu \
+  g++-arm-linux-gnueabihf \
+  libstdc++-4.8-dev-armhf-cross \
+  g++-aarch64-linux-gnu \
+  libstdc++-4.8-dev-arm64-cross \
   zsh \
   xxd \
   strace \
